@@ -1,0 +1,86 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.container nav {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+.container nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: aqua;
+  display: inline-block;
+}
+.container nav a:hover {
+  background-color: brown;
+  color: white;
+}
+
+.page-container {
+  display: flex;
+}
+.page-container .left-section {
+  width: 70%;
+}
+.page-container .sidebar {
+  width: 30%;
+  background-color: beige;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  text-align: center;
+}
+.box-outer {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  width: 30%;
+  min-height: 200px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: solid 5px #fec200;
+  /* float: left; */
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; */
+  text-align: center;
+  transition: linear all 0.3s;
+
+  background: #fc3235; /* Old browsers */
+  /* background: radial-gradient(
+    #9b0406 0%,
+    #fc8888 100%
+  );   */
+  background: linear-gradient(to bottom, #fc3235 0%, #fc8888 100%);
+}
+
+.box:hover {
+  transform: rotateX(180deg);
+  transform: skew(10deg, 0deg);
+}
+
+.btn button {
+  display: inline-block;
+  border: solid 1px gray;
+  background-color: aqua;
+  cursor: pointer;
+  transition: linear all 0.4s;
+  width: 200px;
+  text-align: center;
+}
+.btn button:hover {
+  background-color: black;
+  color: aliceblue;
+  border-radius: 15px;
+  width: 300px;
+}

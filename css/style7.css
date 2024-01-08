@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.box-outer{
+    display: flex;
+    height: 500px;
+    background-color: beige;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    flex-direction: column ; 
+}
+.box{
+    width: 20%;
+    height: 200px;
+    background-color: brown;
+    margin-bottom: 20px;
+}
+.box4{
+    justify-self: flex-end;
+    align-self: flex-end;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+} 
